@@ -163,6 +163,16 @@ npm run dev
 2. **人脸服务**：本地请使用 `app_opencv.py`；`app.py` 是需要 dlib 的可选版本。
 3. **JWT密钥**：生产环境请修改application.yml中的jwt.secret
 
+## 贡献者与单位
+
+详见 [`CONTRIBUTORS.md`](CONTRIBUTORS.md)。
+
+- **单位：** 湖南大学计算机学院软件工程系
+- **指导老师：** 周军海
+- **项目贡献者：** 艾子韬、陈维悠、邹永恒、郭永瑞、张振恒
+
+本仓库部分代码与文档使用 AI 辅助开发，经人工审阅后合并；说明见贡献者文档。
+
 ## 许可证
 
 MIT License
