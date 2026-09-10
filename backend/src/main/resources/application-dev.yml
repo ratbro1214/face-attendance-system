@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/attendance_system?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+
+# 人脸识别服务配置
+face:
+  recognition:
+    url: http://localhost:5000
+    timeout: 10000
+
+# 文件上传配置
+file:
+  upload:
+    path: /tmp/attendance-uploads/
+    face-image-path: /tmp/attendance-uploads/face-images/
+  url-prefix: http://localhost:8080/api/uploads/

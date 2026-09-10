@@ -1,0 +1,14 @@
+backend/.m2/
+backend/target/
+backend/data/
+backend/uploads/
+frontend/node_modules/
+frontend/dist/
+face-recognition/.venv/
+face-recognition/__pycache__/
+face-recognition/face_features.json
+face-recognition/uploads/
+face-recognition/*.whl
+.mysql-data/
+.mysql-runtime-data/
+*.log
